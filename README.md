@@ -31,7 +31,7 @@ Script uses pre-created batch templates to aid with logging the install / uninst
 
 EX for Intune - AppImport_1.2.ps1 -SourcePath C:\IntuneApps\Source -TargetPath C:\IntuneApps\Applications -TenantName pm.onmicrosoft.com -IntuneUserName ITA@pm.onmicrosoft.com -IntergrationBackend Intune
 
-EX for Intune - AppImport_1.2.ps1 -SourcePath C:\IntuneApps\Source -TargetPath \\\Server1\c$\Applications\SCCM -IntergrationBackend SCCM
+EX for SCCM - AppImport_1.2.ps1 -SourcePath C:\IntuneApps\Source -TargetPath \\\Server1\c$\Applications\SCCM -IntergrationBackend SCCM
 
 Intune Integration Notes:
 - Script will pause after creating the install / uninstall wrappers to allow for editing prior to Win32 app packaging
